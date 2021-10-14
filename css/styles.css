@@ -4,19 +4,31 @@
 }
 
 header.cabecera {
-    color: rgb(27, 88, 90);
+    color: rgb(25, 224, 18);
     font-size: 15px;
 }
 
 header.producto {
-    color: darkslateblue;
-    font-size: 22px;
+    color: rgb(68, 196, 164);
+    position: relative;
+    left: 1px;
+}
+
+aside {
+    margin-right: 50px;
+    margin-left: 50;
+    min-width: 50px;
+    background-color: greenyellow;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    max-width: 120px;
 }
 
 nav.menuprincipal {
-    width: 80%;
-    margin: 0 auto;
-    background: darkviolet;
+    position: static;
+    background: rgb(160, 175, 105);
+    position: relative;
 }
 
 footer {
