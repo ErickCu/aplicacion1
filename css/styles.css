@@ -1,0 +1,26 @@
+* {
+    padding: auto;
+    margin: 10px;
+}
+
+header.cabecera {
+    color: rgb(27, 88, 90);
+    font-size: 15px;
+}
+
+header.producto {
+    color: darkslateblue;
+    font-size: 22px;
+}
+
+nav.menuprincipal {
+    width: 80%;
+    margin: 0 auto;
+    background: darkviolet;
+}
+
+footer {
+    padding: auto;
+    margin: 0 auto;
+    background: gray;
+}
