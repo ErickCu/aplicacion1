@@ -4,25 +4,28 @@
 }
 
 header.cabecera {
-    color: rgb(25, 224, 18);
+    color: rgb(64, 132, 221);
     font-size: 15px;
 }
 
 header.producto {
     color: rgb(68, 196, 164);
-    position: relative;
-    left: 1px;
+    font-size: 26px;
+}
+
+section {
+    position: absolute;
+    left: 190px;
+    max-width: 800px;
 }
 
 aside {
-    margin-right: 50px;
-    margin-left: 50;
-    min-width: 50px;
-    background-color: greenyellow;
-    position: relative;
-    top: 10px;
-    left: 10px;
-    max-width: 120px;
+    background: greenyellow;
+    position: absolute;
+    font-size: 20px;
+    top: 125px;
+    left: 18px;
+    max-width: 150px;
 }
 
 nav.menuprincipal {
@@ -32,7 +35,10 @@ nav.menuprincipal {
 }
 
 footer {
-    padding: auto;
-    margin: 0 auto;
+    stroke-opacity: initial;
+    position: relative;
+    top: 750px;
+    font-size: 20px;
     background: gray;
+    width: unset;
 }
